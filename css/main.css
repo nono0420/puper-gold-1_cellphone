@@ -8,6 +8,7 @@ html body {
   height: 100%;
   font-family: 微軟正黑體;
   position: relative;
+  overflow: hidden;
 }
 html body header {
   width: 100%;
@@ -109,7 +110,7 @@ html body header .banner .swiper-pagination .swiper-pagination-bullet-active {
   background: #fff;
 }
 html body header .news {
-  width: 93vw;
+  width: 92%;
   height: 4.5vw;
   background: #0000008c;
   border-radius: 50px;
@@ -117,19 +118,52 @@ html body header .news {
   margin: auto;
 }
 html body header .news marquee {
-  width: 108vw;
+  width: 100%;
   font-size: 2vw;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   color: #fff;
-  margin-left: -7vw;
 }
 html body header .news-icon {
-  width: 6vw;
+  width: 5vw;
   height: 6vw;
   background: url(../img/news-icon.png) no-repeat;
   background-size: 100%;
-  margin: -5vw 0 0 2vw;
+  margin: -5vw 0 0 1vw;
+}
+html body header .vip-pe-banner {
+  width: 94%;
+  height: 11vw;
+  padding-top: 1vw;
+  margin: auto;
+}
+html body header .vip-pe-banner .vip-banner {
+  width: 34vw;
+  height: 13vw;
+  background: url(../img/vip-banner.png) no-repeat;
+  background-size: 100%;
+  float: left;
+}
+html body header .vip-pe-banner .pe-banner {
+  width: 59vw;
+  height: 13vw;
+  background: url(../img/pe-banner.png) no-repeat;
+  background-size: 100%;
+  float: right;
+}
+html body main {
+  width: 92%;
+  height: 100vw;
+  margin: auto;
+}
+html body main .left {
+  width: 18vw;
+  height: 100vw;
+  background: #2a006aab;
+  -webkit-box-shadow: inset 0px 2px 9px #000000c2;
+          box-shadow: inset 0px 2px 9px #000000c2;
+  border-radius: 10px;
+  border: 1px solid #fff1be;
 }
 html body .bg {
   width: 100%;

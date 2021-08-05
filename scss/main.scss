@@ -7,12 +7,12 @@ html {
         height: 100%;
         font-family: 微軟正黑體;
         position: relative;
+        overflow: hidden;
     
         header {
             width: 100%;
             height: 60vw;
-            // background: #000;
-    
+          
             .top {
                 width: 95vw;
                 height: 7.3vw;
@@ -118,7 +118,7 @@ html {
             }
 
             .news {
-                width: 93vw;
+                width: 92%;
                 height: 4.5vw;
                 background: #0000008c;
                 border-radius: 50px;
@@ -126,21 +126,62 @@ html {
                 margin: auto;
 
                 marquee {
-                    width: 108vw;
+                    width: 100%;
                     font-size: 2vw;
                     transform: scale(0.8);
                     color: #fff;
-                    margin-left: -7vw;
+                    // margin-left: -7vw;
                 }
             }
+
             .news-icon {
-                width: 6vw;
+                width: 5vw;
                 height: 6vw;
                 background: url(../img/news-icon.png) no-repeat;
                 background-size: 100%;
-                margin: -5vw 0 0 2vw;     
+                margin: -5vw 0 0 1vw;     
+            }
+
+            .vip-pe-banner {
+                width: 94%;
+                height: 11vw;
+                padding-top: 1vw;
+                margin: auto;
+
+                .vip-banner {
+                    width: 34vw;
+                    height: 13vw;
+                    background: url(../img/vip-banner.png) no-repeat;
+                    background-size: 100%;
+                    float: left;
+                }
+
+                .pe-banner {
+                    width: 59vw;
+                    height: 13vw;
+                    background: url(../img/pe-banner.png) no-repeat;
+                    background-size: 100%;
+                    float: right;
+                }
             }
         }
+
+        main {
+            width: 92%;
+            height: 100vw;
+            margin: auto;
+            // background: salmon;
+
+            .left {
+                width: 18vw;
+                height: 100vw;
+                background: #2a006aab;
+                box-shadow: inset 0px 2px 9px #000000c2;
+                border-radius: 10px;
+                border: 1px solid #fff1be;
+            }
+        }
+
         .bg {
             width: 100%;
             height: 100%;
