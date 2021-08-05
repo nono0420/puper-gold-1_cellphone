@@ -1,12 +1,143 @@
 @charset "UTF-8";
+html {
+  width: 100%;
+  height: 100%;
+}
 html body {
   width: 100%;
-  height: 1280px;
+  height: 100%;
   font-family: 微軟正黑體;
   position: relative;
 }
+html body header {
+  width: 100%;
+  height: 60vw;
+}
+html body header .top {
+  width: 95vw;
+  height: 7.3vw;
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+  top: 1vw;
+  margin: auto;
+}
+html body header .top .logo {
+  width: 17.5vw;
+  height: 7.5vw;
+  background: url(../img/logo.png) no-repeat;
+  background-size: 100%;
+  margin: 2px 0 0 10px;
+  position: absolute;
+}
+html body header .top .signin {
+  width: 23vw;
+  height: 6vw;
+  float: right;
+  position: relative;
+  right: 4vw;
+  top: 1vw;
+}
+html body header .top .signin .signin-icon {
+  width: 4vw;
+  height: 4vw;
+  background: url(../img/signin-icon.png) no-repeat;
+  background-size: 100%;
+  margin-top: 1vw;
+  float: left;
+}
+html body header .top .signin .signin-text {
+  width: 19vw;
+  height: 6vw;
+  line-height: 6vw;
+  color: #d7075f;
+  font-weight: bold;
+  font-size: 2vw;
+  float: right;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+html body header .banner {
+  width: 100%;
+  height: 31vw;
+}
+html body header .banner .swiper-container {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+html body header .banner .swiper-slide {
+  width: 100%;
+  height: 31vw;
+  text-align: center;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+html body header .banner .swiper-slide.img-1 {
+  background: url(../img/banner-1.png) no-repeat center;
+  background-size: 100%;
+}
+html body header .banner .swiper-slide.img-2 {
+  background: url(../img/banner-1.png) no-repeat center;
+  background-size: 100%;
+}
+html body header .banner .swiper-slide.img-3 {
+  background: url(../img/banner-1.png) no-repeat center;
+  background-size: 100%;
+}
+html body header .banner .swiper-pagination .swiper-pagination-bullet {
+  width: 1vw;
+  height: 1vw;
+  background: #330077;
+  border: 1px solid #ffe249;
+  border-radius: 50%;
+  opacity: unset;
+  outline: none;
+  margin: 2px;
+}
+html body header .banner .swiper-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+}
+html body header .news {
+  width: 93vw;
+  height: 4.5vw;
+  background: #0000008c;
+  border-radius: 50px;
+  border: 1px solid #ffe249;
+  margin: auto;
+}
+html body header .news marquee {
+  width: 108vw;
+  font-size: 2vw;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  color: #fff;
+  margin-left: -7vw;
+}
+html body header .news-icon {
+  width: 6vw;
+  height: 6vw;
+  background: url(../img/news-icon.png) no-repeat;
+  background-size: 100%;
+  margin: -5vw 0 0 2vw;
+}
 html body .bg {
-  width: 1080px;
-  height: 1920px;
-  background: url(../img/bg.jpg);
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
 }

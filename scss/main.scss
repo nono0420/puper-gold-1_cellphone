@@ -1,12 +1,156 @@
-html body {
+html {
     width: 100%;
-    height: 1280px;
-    font-family: 微軟正黑體;
-    position: relative;
+    height: 100%;
 
-    .bg {
-        width: 1080px;
-        height: 1920px;
-        background: url(../img/bg.jpg);
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: 微軟正黑體;
+        position: relative;
+    
+        header {
+            width: 100%;
+            height: 60vw;
+            // background: #000;
+    
+            .top {
+                width: 95vw;
+                height: 7.3vw;
+                background: #fff;
+                border-radius: 30px;
+                position: relative;
+                top: 1vw;
+                margin: auto;
+    
+                .logo {
+                    width: 17.5vw;
+                    height: 7.5vw;
+                    background: url(../img/logo.png) no-repeat;
+                    background-size: 100%;
+                    margin: 2px 0 0 10px;
+                    position: absolute;
+                }
+    
+                .signin {
+                    width: 23vw;
+                    height: 6vw;
+                    float: right;
+                    position: relative;
+                    right: 4vw;
+                    top: 1vw;
+                    
+                    .signin-icon {
+                        width: 4vw;
+                        height: 4vw;
+                        background: url(../img/signin-icon.png) no-repeat;
+                        background-size: 100%;
+                        margin-top: 1vw;
+                        float: left;
+    
+                    }
+    
+                    .signin-text {
+                        width: 19vw;
+                        height: 6vw;
+                        line-height: 6vw;
+                        color: #d7075f;
+                        font-weight: bold;
+                        font-size: 2vw;
+                        float: right;
+                        transform: scale(0.9);  //字體大小
+                    }
+                }
+            }
+
+            .banner {
+                width: 100%;
+                height: 31vw;
+
+                .swiper-container {
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                }
+            
+                .swiper-slide {
+                    width: 100%;
+                    height:31vw;
+                    text-align: center;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    object-fit: cover;
+
+                    &.img-1 {
+                        background: url(../img/banner-1.png) no-repeat center;
+                        background-size: 100%;
+                    }
+
+                    &.img-2 {
+                        background: url(../img/banner-1.png) no-repeat center;  
+                        background-size: 100%;
+                    }
+
+                    &.img-3 {
+                        background: url(../img/banner-1.png) no-repeat center;  
+                        background-size: 100%;
+                    }
+                }     
+
+                .swiper-pagination {
+
+                    .swiper-pagination-bullet {
+                        width: 1vw;
+                        height: 1vw;
+                        background: #330077;
+                        border: 1px solid #ffe249;
+                        border-radius: 50%;
+                        opacity: unset;
+                        outline: none;
+                        margin: 2px;
+                    }
+                    .swiper-pagination-bullet-active {
+                        background: #fff;
+                    }
+                    
+                } 
+            }
+
+            .news {
+                width: 93vw;
+                height: 4.5vw;
+                background: #0000008c;
+                border-radius: 50px;
+                border: 1px solid #ffe249;
+                margin: auto;
+
+                marquee {
+                    width: 108vw;
+                    font-size: 2vw;
+                    transform: scale(0.8);
+                    color: #fff;
+                    margin-left: -7vw;
+                }
+            }
+            .news-icon {
+                width: 6vw;
+                height: 6vw;
+                background: url(../img/news-icon.png) no-repeat;
+                background-size: 100%;
+                margin: -5vw 0 0 2vw;     
+            }
+        }
+        .bg {
+            width: 100%;
+            height: 100%;
+            background: url(../img/bg.jpg) no-repeat;
+            background-size: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -999;
+        }
     }
 }
+
