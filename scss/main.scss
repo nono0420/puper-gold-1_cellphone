@@ -8,6 +8,381 @@ html {
         font-family: 微軟正黑體;
         position: relative;
         overflow: hidden;
+
+        .sign-bg {     //登入窗
+            width: 100%;
+            height: 100%;
+            background-color: #000000ba;
+            z-index: 999;
+            position: absolute;
+            display: none;
+    
+            &.display {
+                display: block;
+            }
+    
+            .signin-box {
+                width: 90vw;
+                height: 75vw;
+                background: linear-gradient(to bottom, #de53ff 0%,#6403cf 100%);
+                border: 3px solid #fff1be;
+                border-radius: 20px;
+                margin: auto;
+                margin-top: 110px;
+    
+                .signin-cross {
+                    width: 14vw;
+                    height: 15vw;
+                    border-radius: 50%;
+                    background: url(../img/cross.png) no-repeat;
+                    background-size: 100%;
+                    left: 78vw;
+                    top: -7vw;
+                    position: relative;
+                    cursor: pointer;
+                }
+    
+                p {
+                    font-size: 7vw;
+                    color: #fff5a6;
+                    font-weight: bold;
+                    position: absolute;
+                    margin: auto;
+                    margin: -10vw 0 0 38vw;
+                }
+
+                .input-box {
+                    width: 66vw;
+                    height: 27vw;
+                    float: right;
+                    margin-top: -1vw;
+
+                    input {
+                        width: 50vw;
+                        height: 8vw;
+                        padding-top: 3px;
+                        border-radius: 20px;
+                        padding-left: 4vw;
+                        color: #4c3367;
+                        background: #fff;
+                        border: none;
+                        outline: none;
+                        box-shadow: 1px 3px 4px #000000e0;
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-top: 3vw;
+                    }
+                }
+
+                .input-icon {
+                    width: 10vw;
+                    height: 25vw;
+                    background: url(../img/input-icon.png) no-repeat;
+                    background-size: 100%;
+                    position: absolute;
+                    margin: -25vw 0 0 13vw;
+                }
+    
+                input::-webkit-input-placeholder {
+                    color: #4c3367;
+                }
+
+                .agree-box {
+                    width: 45vw;
+                    height: 18px;
+                    position: absolute;
+                    margin: 0 0 0 23vw;
+     
+                     label {
+                         width: 5vw;
+                         height: 5vw;
+                         position: absolute;
+                         display: contents;
+     
+                         input[type=checkbox] {
+                             margin-right: 5px;
+                             cursor: pointer;
+                             font-size: 14px;
+                             width: 15px;
+                             height: 12px;
+                             position: relative;
+                         }
+                         
+                         input[type=checkbox]:after {
+                             position: absolute;
+                             width: 12px;
+                             height: 14px;
+                             top: 0;
+                             content: " ";
+                             color: #6c08d2;
+                             display: inline-block;
+                             visibility: visible;
+                             padding: 0px 2px;
+                             border-radius: 3px;
+                             background:#fff;
+                             border:1px solid #DDDDDD;
+                             margin-top: -1px;
+                         }
+                         
+                         input[type=checkbox]:checked:after {
+                             content: "✔";
+                             font-size: 12px;
+                             font-weight:600;
+                             background-color: #ffeda4;
+                             padding-bottom: 2px;
+                             padding-left: 5px;
+                         }
+                     }  
+       
+                    span {
+                        color: #fff;
+                        font-size: 4vw;
+                    }
+                }
+    
+                .goto-forget {
+                    font-size: 4vw;
+                    color: #fff;
+                    text-decoration: none;
+                    position: absolute;
+                    margin: 0 0px 0px 60vw;
+    
+                    &:hover,&:active,&.active {
+                        color: #12ff00;
+                    }
+                }
+    
+                button {
+                    width: 40vw;
+                    height: 11vw;
+                    border-radius: 5px;
+                    outline: none;
+                    border: none;
+                    background: url(../img/signin-button.png) no-repeat;
+                    background-size: 100%;
+                    font-size: 7vw;
+                    color: #d7075f;
+                    font-weight: bold;
+                    line-height: 13vw;
+                    margin: 11vw 0 0 27vw;
+                    cursor: pointer;
+                }
+
+                .goto-regidtertd-box {
+                    width: 182px;
+                    height: 20px;
+                    display: inline-flex;
+                    position: relative;
+                    margin: 2vw 0 0 27vw;
+    
+                    div {
+                        font-size: 14px;
+                        color: #fff;
+                    }
+    
+                    .goto-registered {
+                        font-size: 3vw;
+                        color: #12ff00;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .registered-bg {  //註冊窗
+            width: 100%;
+            height: 100%;
+            background: #000000ba;
+            z-index: 999;
+            position: absolute;
+            // display: none;
+    
+            &.display {
+                display: block;
+            }
+    
+            .registered-box {
+                width: 88vw;
+                height: 120vw;
+                background: linear-gradient(to bottom, #de53ff 0%,#6403cf 100%);
+                border: 3px solid #fff1be;
+                border-radius: 20px;
+                margin: auto;
+                margin-top: 50px;
+    
+                .registered-cross {
+                    width: 14vw;
+                    height: 15vw;
+                    border-radius: 50%;
+                    background: url(../img/cross.png) no-repeat;
+                    background-size: 100%;
+                    left: 78vw;
+                    top: -7vw;
+                    position: relative;
+                    cursor: pointer;
+                }
+    
+                p {
+                    font-size: 7vw;
+                    color: #fff;
+                    font-weight: bold;
+                    color: #fff5a6;
+                    position: absolute;
+                    margin: -9vw 0 0 37vw;
+                }
+
+                .registered-icon {
+                    width: 9.5vw;
+                    height: 85vw;
+                    background: url(../img/registered-icon.png) no-repeat;
+                    background-size: 100%;
+                    position: absolute;
+                    margin-left: 10vw;
+                    margin-top: 3vw;
+                }
+
+                .registered-input-box {
+                    width: 60vw;
+                    height: 85vw;
+                    float: right;
+                    margin-right: 6vw;
+        
+                    input {
+                        width: 60vw;
+                        height: 9vw;
+                        line-height: 35px;
+                        padding-top: 4px;
+                        border-radius: 20px;
+                        padding-left: 15px;
+                        color: #4c3367;
+                        background: #fff;
+                        border: none;
+                        outline: none;
+                        box-shadow: 1px 3px 4px #000000e0;
+                        font-size: 4vw;
+                        font-weight: bold;
+                        position: relative;
+                        box-sizing: border-box;
+                        margin-top: 3.1vw;
+                    }
+                }
+    
+                input {
+                    width: 50vw;
+                    height: 8vw;
+                    border-radius: 20px;
+                    padding-left: 15px;
+                    color: #4c3367;
+                    background: #fff;
+                    border: none;
+                    outline: none;
+                    box-shadow: 1px 3px 4px #000000e0;
+                    font-size: 4vw;
+                    font-weight: bold;
+                    position: absolute;
+                }
+    
+                input::-webkit-input-placeholder {
+                    color: #4c3367;
+                }
+    
+                .get {
+                    width: 21vw;
+                    height: 5vw;
+                    background: linear-gradient(to bottom, #ffbb45 0%, #fffaa8 100%);
+                    border-radius: 15px;
+                    text-decoration: none;
+                    line-height: 28px;
+                    font-weight: bold;
+                    font-size: 3vw;
+                    text-align: center;
+                    color: #454545;
+                    border: 1px solid #d19400;
+                    cursor: pointer;
+                    position: absolute;
+                    margin-left: 36vw;
+                    margin-top: -8.5vw;
+                    padding: 1vw;
+                    line-height: 5vw;
+                }
+    
+               .agree-box {
+                   width: 100vw;
+                   height: 32px;
+                   line-height: 32px;
+                   text-align: center;
+    
+                    label {
+                        width: 16px;
+                        height: 16px;
+                        position: absolute;
+                        display: contents;
+    
+                        input[type=checkbox] {
+                            margin-right: 5px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            width: 15px;
+                            height: 12px;
+                            position: relative;
+                        }
+                        
+                        input[type=checkbox]:after {
+                            position: absolute;
+                            width: 12px;
+                            height: 14px;
+                            top: 0;
+                            content: " ";
+                            color: #6c08d2;
+                            display: inline-block;
+                            visibility: visible;
+                            padding: 0px 2px;
+                            border-radius: 3px;
+                            background:#fff;
+                            border:1px solid #DDDDDD;
+                            margin-top: -1px;
+                        }
+                        
+                        input[type=checkbox]:checked:after {
+                            content: "✔";
+                            font-size: 12px;
+                            font-weight:600;
+                            background-color: #ffeda4;
+                            padding-bottom: 2px;
+                            padding-left: 5px;
+                        }
+                    }  
+      
+                   .agree-text {
+                    font-size: 14px;
+                    color: #fff;
+                    font-weight: bold;
+                    text-decoration: none;
+                    display: inline-flex;
+    
+                    h5 {
+                        color: #00ff0c;
+                    }
+                   }
+               }
+    
+               button {
+                width: 40vw;
+                height: 11vw;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                background: url(../img/signin-button.png) no-repeat;
+                background-size: 100%;
+                font-size: 7vw;
+                color: #d7075f;
+                font-weight: bold;
+                line-height: 13vw;
+                cursor: pointer;
+               }
+            }
+        }
     
         header {
             width: 100%;
@@ -57,7 +432,6 @@ html {
                         font-weight: bold;
                         font-size: 3vw;
                         float: right;
-                        // transform: scale(0.9);  //字體大小
                     }
                 }
             }
@@ -205,7 +579,7 @@ html {
                             position: absolute;
 
                             .girl {
-                                width: 9vw;
+                                width: 8.5vw;
                                 height: 11vw;
                                 margin: auto;
                                 margin-top: 8px;
@@ -214,7 +588,7 @@ html {
                             }
 
                             .fish {
-                                width: 9vw;
+                                width: 8.5vw;
                                 height: 11vw;
                                 margin: auto;
                                 margin-top: 8px;
@@ -223,7 +597,7 @@ html {
                             }
 
                             .pe {
-                                width: 9vw;
+                                width: 8.5vw;
                                 height: 11vw;
                                 margin: auto;
                                 margin-top: 8px;
@@ -232,7 +606,7 @@ html {
                             }
 
                             .card {
-                                width: 9vw;
+                                width: 8.5vw;
                                 height: 11vw;
                                 margin: auto;
                                 margin-top: 8px;
@@ -241,7 +615,7 @@ html {
                             }
 
                             .tiger {
-                                width: 9vw;
+                                width: 8.5vw;
                                 height: 11vw;
                                 margin: auto;
                                 margin-top: 8px;
@@ -250,7 +624,7 @@ html {
                             }
 
                             .lottery {
-                                width: 9vw;
+                                width: 8.5vw;
                                 height: 11vw;
                                 margin: auto;
                                 margin-top: 8px;

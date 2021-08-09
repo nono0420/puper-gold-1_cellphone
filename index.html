@@ -10,6 +10,57 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+     <!-- 登入窗 -->
+     <div class="sign-bg">
+        <div class="signin-box">
+            <div class="signin-cross"></div>
+            <p>登入</p>
+            <div class="input-box">
+                <input type="text"placeholder="請輸入帳號">
+                <input type="password" placeholder="請輸入密碼">
+            </div>
+            <div class="input-icon"></div>
+            <div class="agree-box">
+                <label>
+                    <input name="checkbox" class="checkbox" type="checkbox"/>
+                    <span>記住我</span>
+                </label>
+            </div>
+            <a href="#" class="goto-forget"> 忘記密碼?</a>
+            <button>登入</button>
+            <div class="goto-regidtertd-box">
+                <div>還沒有帳號? </div>
+                <a href="#" class="goto-registered"> 立即註冊</a>
+            </div>
+        </div>
+    </div>
+    <!-- 註冊窗 -->
+    <div class="registered-bg">
+        <div class="registered-box">
+            <div class="registered-cross"></div>
+            <p>註冊</p>
+            <div class="registered-icon"></div>
+            <div class="registered-input-box">
+                <input type="text"placeholder="請輸入您的姓名">
+                <input type="text"placeholder="請輸入帳號">
+                <input type="password"placeholder="請輸入密碼">
+                <input type="password"placeholder="請確認密碼">
+                <input type="text"placeholder="請輸入手機號碼">
+                <input type="text"placeholder="請輸入驗證碼">
+                <a href="#" class="get">取得驗證碼</a>
+                <input type="text"placeholder="電子信箱">
+            </div>
+            </div>
+            <div class="agree-box">
+                <label>
+                    <input name="checkbox" class="checkbox" type="checkbox"/>
+                </label>
+                <a href="#" class="agree-text">
+                    同意遵守<h5>隱私條款</h5>相關規定</a>
+            </div>
+            <button>註冊</button>
+        </div>
+    </div>
     <header>
         <div class="top">
             <div class="logo"></div>
@@ -122,6 +173,7 @@
            </li>
        </ul>
     </div>
+
     <div class="bg"></div>
 
 
@@ -145,6 +197,21 @@
                 prevEl: ".swiper-button-prev",
             },
         });
+    </script>
+
+    <script>
+      $(function(){
+            $('.signin').click(function(){
+                $('.sign-bg').addClass('display');
+            })
+            $('.signin-cross').click(function(){
+                $('.sign-bg').removeClass('display');
+            })
+            $('.goto-regidtertd-box').click(function(){
+                $('.registered-bg').addClass('display');
+                $('.sign-bg').removeClass('display');
+            })
+        })
     </script>
 </body>
 </html>
