@@ -55,9 +55,9 @@ html {
                         line-height: 6vw;
                         color: #d7075f;
                         font-weight: bold;
-                        font-size: 2vw;
+                        font-size: 3vw;
                         float: right;
-                        transform: scale(0.9);  //字體大小
+                        // transform: scale(0.9);  //字體大小
                     }
                 }
             }
@@ -303,7 +303,7 @@ html {
                         @media(max-width: 320px) {
                             font-size: 3vw;
                             transform: scale(0.8);
-                            line-height: 62vw;
+                            line-height: 61.3vw;
                         }
                     }
                 }
