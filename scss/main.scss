@@ -296,6 +296,10 @@ html {
                         margin-left: 2vw;
                         position: absolute;
 
+                        @media(max-width: 414px) {
+                            line-height: 52.3vw;
+                        }
+
                         @media(max-width: 320px) {
                             font-size: 3vw;
                             transform: scale(0.8);
