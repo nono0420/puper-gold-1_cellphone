@@ -239,22 +239,48 @@ html body main .left ul li .left-icon .lottery {
   background-size: contain;
 }
 html body main .right {
-  width: 70vw;
-  height: 120vw;
+  width: 72vw;
+  height: 102vw;
   float: right;
-  background: #000;
   overflow: scroll;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
+}
+html body main .right .right-img {
+  width: 70vw;
+  height: 134vw;
+  background: url(../img/main.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  margin-left: 2vw;
 }
 html body main .right .right-box {
   width: 33vw;
-  height: 38vw;
-  background: #c66110;
+  height: 31vw;
   margin: 5px 0 0 5px;
+}
+html body main .right .right-box P {
+  width: 33vw;
+  height: 5vw;
+  font-size: 3vw;
+  color: #330077;
+  font-weight: bold;
+  text-align: center;
+  line-height: 52vw;
+  margin-left: 2vw;
+  position: absolute;
+}
+@media (max-width: 320px) {
+  html body main .right .right-box P {
+    font-size: 3vw;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    line-height: 62vw;
+  }
 }
 html body .fixed-menu {
   width: 100%;
