@@ -391,9 +391,16 @@ html {
                              font-size: 3vw;
                              font-weight:600;
                              background-color: #ffeda4;
-                             padding-bottom: 20px;
+                             padding-bottom: 2px;
                              position: absolute;
-                            //  padding-left: 5px;
+
+                             @supports (-webkit-touch-callout: none) {
+                               padding-bottom: 2px;
+                            }
+                      
+                            @supports not (-webkit-touch-callout: none) {
+                                padding-bottom: 2px;
+                            }
                          }
 
                          span {

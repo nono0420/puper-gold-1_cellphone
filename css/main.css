@@ -388,8 +388,18 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:aft
   font-size: 3vw;
   font-weight: 600;
   background-color: #ffeda4;
-  padding-bottom: 20px;
+  padding-bottom: 2px;
   position: absolute;
+}
+@supports (-webkit-touch-callout: none) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:after {
+    padding-bottom: 2px;
+  }
+}
+@supports not (-webkit-touch-callout: none) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:after {
+    padding-bottom: 2px;
+  }
 }
 html body .sign-bg .signin-box .agree-box label span {
   color: #fff;
