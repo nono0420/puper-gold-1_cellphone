@@ -131,8 +131,8 @@ html body .registered-bg .registered-box .agree-box {
   margin-top: 87vw;
 }
 html body .registered-bg .registered-box .agree-box label {
-  width: 20vw;
-  height: 8vw;
+  width: 2vw;
+  height: 10vw;
   position: absolute;
   display: contents;
 }
@@ -279,17 +279,16 @@ html body .sign-bg .signin-box .agree-box label {
   display: contents;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
-  margin-right: 5px;
   cursor: pointer;
-  font-size: 14px;
-  width: 15px;
-  height: 12px;
+  font-size: 3.5vw;
+  width: 4vw;
+  height: 3.5vw;
   position: relative;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   position: absolute;
-  width: 12px;
-  height: 14px;
+  width: 3.5vw;
+  height: 3.5vw;
   top: 0;
   content: " ";
   color: #6c08d2;
@@ -313,7 +312,7 @@ html body .sign-bg .signin-box .agree-box span {
   font-size: 4vw;
 }
 html body .sign-bg .signin-box .goto-forget {
-  font-size: 4vw;
+  font-size: 3.5vw;
   color: #fff;
   text-decoration: none;
   position: absolute;
