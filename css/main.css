@@ -283,7 +283,8 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
   font-size: 3.5vw;
   width: 4vw;
   height: 3.5vw;
-  position: relative;
+  position: absolute;
+  right: 73vw;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   position: absolute;
@@ -305,19 +306,19 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:aft
   font-weight: 600;
   background-color: #ffeda4;
   padding-bottom: 2px;
-  padding-left: 5px;
 }
 html body .sign-bg .signin-box .agree-box span {
   color: #fff;
   font-size: 4vw;
+  display: contents;
 }
 html body .sign-bg .signin-box .goto-forget {
   font-size: 3.5vw;
   color: #fff;
   text-decoration: none;
   position: absolute;
-  top: 72vw;
-  left: 64vw;
+  top: 73vw;
+  left: 65vw;
 }
 html body .sign-bg .signin-box .goto-forget:hover, html body .sign-bg .signin-box .goto-forget:active, html body .sign-bg .signin-box .goto-forget.active {
   color: #12ff00;

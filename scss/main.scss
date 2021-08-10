@@ -300,7 +300,8 @@ html {
                              font-size: 3.5vw;
                              width: 4vw;
                              height: 3.5vw;
-                             position: relative;
+                             position: absolute;
+                             right: 73vw;
                          }
                          
                          input[type=checkbox]:after {
@@ -324,13 +325,14 @@ html {
                              font-weight:600;
                              background-color: #ffeda4;
                              padding-bottom: 2px;
-                             padding-left: 5px;
+                            //  padding-left: 5px;
                          }
                      }  
        
                     span {
                         color: #fff;
                         font-size: 4vw;
+                        display: contents;
                     }
                 }
     
@@ -339,8 +341,8 @@ html {
                     color: #fff;
                     text-decoration: none;
                     position: absolute;
-                    top: 72vw;
-                    left: 64vw;
+                    top: 73vw;
+                    left: 65vw;
     
                     &:hover,&:active,&.active {
                         color: #12ff00;
