@@ -268,8 +268,8 @@ html body .sign-bg .signin-box input::-webkit-input-placeholder {
   color: #4c3367;
 }
 html body .sign-bg .signin-box .agree-box {
-  width: 45vw;
-  height: 18px;
+  width: 20vw;
+  height: 6vw;
   margin: 0 0 0 23vw;
 }
 html body .sign-bg .signin-box .agree-box label {
@@ -285,6 +285,7 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
   height: 3.5vw;
   position: absolute;
   right: 73vw;
+  top: 71vw;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   position: absolute;
@@ -309,18 +310,18 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:aft
 }
 html body .sign-bg .signin-box .agree-box span {
   color: #fff;
-  font-size: 4vw;
+  font-size: 3.5vw;
   display: contents;
 }
-html body .sign-bg .signin-box .goto-forget {
+html body .sign-bg .signin-box .agree-box .goto-forget {
   font-size: 3.5vw;
   color: #fff;
   text-decoration: none;
   position: absolute;
-  top: 73vw;
+  top: 72vw;
   left: 65vw;
 }
-html body .sign-bg .signin-box .goto-forget:hover, html body .sign-bg .signin-box .goto-forget:active, html body .sign-bg .signin-box .goto-forget.active {
+html body .sign-bg .signin-box .agree-box .goto-forget:hover, html body .sign-bg .signin-box .agree-box .goto-forget:active, html body .sign-bg .signin-box .agree-box .goto-forget.active {
   color: #12ff00;
 }
 html body .sign-bg .signin-box button {
