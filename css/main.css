@@ -153,6 +153,11 @@ html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
   position: relative;
   right: 19vw;
 }
+@media (max-width: 414px) {
+  html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
+    right: 18vw;
+  }
+}
 html body .registered-bg .registered-box .agree-box label input[type=checkbox]:after {
   position: absolute;
   width: 12px;
@@ -180,7 +185,7 @@ html body .registered-bg .registered-box .agree-box label input[type=checkbox]:c
   padding-left: 5px;
 }
 html body .registered-bg .registered-box .agree-box .agree-text {
-  font-size: 3.5vw;
+  font-size: 3vw;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
