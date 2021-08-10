@@ -71,19 +71,19 @@ html {
                         width: 60vw;
                         height: 9vw;
                         line-height: 35px;
-                        padding-top: 4px;
+                        padding-top: 3px;
                         border-radius: 20px;
-                        padding-left: 15px;
+                        padding-left: 4vw;
                         color: #4c3367;
                         background: #fff;
                         border: none;
                         outline: none;
                         box-shadow: 1px 3px 4px #000000e0;
-                        font-size: 4vw;
+                        font-size: 15px;
                         font-weight: bold;
                         position: relative;
                         box-sizing: border-box;
-                        margin-top: 3.1vw;
+                        margin-top: 3vw;
                     }
                 }
     
@@ -123,7 +123,27 @@ html {
                     padding: 1vw;
                     line-height: 5vw;
                     left: 63vw;
-                     top: 93.5vw;
+                    top: 93vw;
+
+                    @media(max-width:414px){
+                        top: 91.5vw;
+                    }
+
+                    @media(max-width:411px){
+                        top: 91.7vw;
+                    }
+
+                    @media(max-width:375px){
+                        top: 92.7vw;
+                    }
+
+                    @media(max-width:360px){
+                        top: 93.2vw;
+                    }
+
+                    @media(max-width:320px){
+                        top: 95.2vw;
+                    }
                 }
     
                .agree-box {
@@ -286,7 +306,7 @@ html {
                 .agree-box {
                     width: 20vw;
                     height: 6vw; 
-                    margin: 0 0 0 23vw;
+                    // margin: 0 0 0 23vw;
      
                      label {
                          width: 5vw;
@@ -295,14 +315,17 @@ html {
                          display: contents;
      
                          input[type=checkbox] {
-                            //  margin-right: 5px;
                              cursor: pointer;
                              font-size: 3.5vw;
                              width: 4vw;
                              height: 3.5vw;
                              position: absolute;
-                             right: 73vw;
+                             right: 70vw;
                              top: 71vw;
+
+                             @media(max-width:320px){
+                                top: 78vw;
+                            }
                          }
                          
                          input[type=checkbox]:after {
@@ -328,15 +351,19 @@ html {
                              padding-bottom: 2px;
                             //  padding-left: 5px;
                          }
+
+                         span {
+                            color: #fff;
+                            font-size: 3.5vw;
+                            position: absolute;
+                            top: 72vw;
+                            left: 31vw;
+
+                            @media(max-width:320px){
+                                top: 79vw;
+                            }
+                        }
                      }  
-       
-                    span {
-                        color: #fff;
-                        font-size: 3.5vw;
-                        position: absolute;
-                        // top: 72vw;
-                        // left: 65vw;
-                    }
 
                     .goto-forget {
                         font-size: 3.5vw;
@@ -345,6 +372,10 @@ html {
                         position: absolute;
                         top: 72vw;
                         left: 65vw;
+
+                        @media(max-width:320px){
+                            top: 79vw;
+                        }
         
                         &:hover,&:active,&.active {
                             color: #12ff00;
@@ -368,6 +399,10 @@ html {
                     left: 32vw;
                     position: absolute;
                     cursor: pointer;
+
+                    @media(max-width:320px){
+                        top: 87vw;
+                    }
                 }
 
                 .goto-regidtertd-box {
@@ -377,6 +412,10 @@ html {
                     position: absolute;
                     top: 93vw;
                     left: 35vw;
+
+                    @media(max-width:320px){
+                        top: 100vw;
+                    }
     
                     div {
                         font-size: 14px;

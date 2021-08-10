@@ -69,21 +69,21 @@ html body .registered-bg .registered-box .registered-input-box input {
   width: 60vw;
   height: 9vw;
   line-height: 35px;
-  padding-top: 4px;
+  padding-top: 3px;
   border-radius: 20px;
-  padding-left: 15px;
+  padding-left: 4vw;
   color: #4c3367;
   background: #fff;
   border: none;
   outline: none;
   -webkit-box-shadow: 1px 3px 4px #000000e0;
           box-shadow: 1px 3px 4px #000000e0;
-  font-size: 4vw;
+  font-size: 15px;
   font-weight: bold;
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-top: 3.1vw;
+  margin-top: 3vw;
 }
 html body .registered-bg .registered-box input {
   width: 50vw;
@@ -121,7 +121,32 @@ html body .registered-bg .registered-box .get {
   padding: 1vw;
   line-height: 5vw;
   left: 63vw;
-  top: 93.5vw;
+  top: 93vw;
+}
+@media (max-width: 414px) {
+  html body .registered-bg .registered-box .get {
+    top: 91.5vw;
+  }
+}
+@media (max-width: 411px) {
+  html body .registered-bg .registered-box .get {
+    top: 91.7vw;
+  }
+}
+@media (max-width: 375px) {
+  html body .registered-bg .registered-box .get {
+    top: 92.7vw;
+  }
+}
+@media (max-width: 360px) {
+  html body .registered-bg .registered-box .get {
+    top: 93.2vw;
+  }
+}
+@media (max-width: 320px) {
+  html body .registered-bg .registered-box .get {
+    top: 95.2vw;
+  }
 }
 html body .registered-bg .registered-box .agree-box {
   width: 88vw;
@@ -270,7 +295,6 @@ html body .sign-bg .signin-box input::-webkit-input-placeholder {
 html body .sign-bg .signin-box .agree-box {
   width: 20vw;
   height: 6vw;
-  margin: 0 0 0 23vw;
 }
 html body .sign-bg .signin-box .agree-box label {
   width: 5vw;
@@ -284,8 +308,13 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
   width: 4vw;
   height: 3.5vw;
   position: absolute;
-  right: 73vw;
+  right: 70vw;
   top: 71vw;
+}
+@media (max-width: 320px) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
+    top: 78vw;
+  }
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   position: absolute;
@@ -308,10 +337,17 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:aft
   background-color: #ffeda4;
   padding-bottom: 2px;
 }
-html body .sign-bg .signin-box .agree-box span {
+html body .sign-bg .signin-box .agree-box label span {
   color: #fff;
   font-size: 3.5vw;
   position: absolute;
+  top: 72vw;
+  left: 31vw;
+}
+@media (max-width: 320px) {
+  html body .sign-bg .signin-box .agree-box label span {
+    top: 79vw;
+  }
 }
 html body .sign-bg .signin-box .agree-box .goto-forget {
   font-size: 3.5vw;
@@ -320,6 +356,11 @@ html body .sign-bg .signin-box .agree-box .goto-forget {
   position: absolute;
   top: 72vw;
   left: 65vw;
+}
+@media (max-width: 320px) {
+  html body .sign-bg .signin-box .agree-box .goto-forget {
+    top: 79vw;
+  }
 }
 html body .sign-bg .signin-box .agree-box .goto-forget:hover, html body .sign-bg .signin-box .agree-box .goto-forget:active, html body .sign-bg .signin-box .agree-box .goto-forget.active {
   color: #12ff00;
@@ -341,6 +382,11 @@ html body .sign-bg .signin-box button {
   position: absolute;
   cursor: pointer;
 }
+@media (max-width: 320px) {
+  html body .sign-bg .signin-box button {
+    top: 87vw;
+  }
+}
 html body .sign-bg .signin-box .goto-regidtertd-box {
   width: 182px;
   height: 20px;
@@ -350,6 +396,11 @@ html body .sign-bg .signin-box .goto-regidtertd-box {
   position: absolute;
   top: 93vw;
   left: 35vw;
+}
+@media (max-width: 320px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 100vw;
+  }
 }
 html body .sign-bg .signin-box .goto-regidtertd-box div {
   font-size: 14px;
