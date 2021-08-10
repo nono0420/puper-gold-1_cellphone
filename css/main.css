@@ -388,7 +388,7 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:aft
   font-size: 3vw;
   font-weight: 600;
   background-color: #ffeda4;
-  padding-bottom: 2px;
+  padding-bottom: 20px;
   position: absolute;
 }
 html body .sign-bg .signin-box .agree-box label span {
@@ -440,7 +440,7 @@ html body .sign-bg .signin-box button {
   font-size: 6vw;
   color: #d7075f;
   font-weight: bold;
-  line-height: 13vw;
+  line-height: 11vw;
   top: 80vw;
   left: 32vw;
   position: absolute;
@@ -624,7 +624,7 @@ html body main {
 }
 html body main .left {
   width: 18vw;
-  height: 100vw;
+  height: 101vw;
   background: #2a006aab;
   -webkit-box-shadow: inset 0px 2px 9px #000000c2;
           box-shadow: inset 0px 2px 9px #000000c2;
@@ -637,6 +637,7 @@ html body main .left ul {
   width: 14vw;
   height: 100%;
   margin: auto;
+  margin-top: 1vw;
 }
 html body main .left ul li {
   width: 14vw;
@@ -646,6 +647,11 @@ html body main .left ul li {
   line-height: 26vw;
   color: #fff1be;
   font-weight: bold;
+}
+html body main .left ul li:hover, html body main .left ul li:active, html body main .left ul li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#7a18e4), to(#d858e8));
+  background: linear-gradient(to top, #7a18e4 0%, #d858e8 100%);
+  border-radius: 3px;
 }
 @media (max-width: 320px) {
   html body main .left ul li {
