@@ -48,7 +48,7 @@ html {
                     font-weight: bold;
                     color: #fff5a6;
                     position: absolute;
-                    margin: -9vw 0 0 37vw;
+                    margin: -9vw 0 0 39vw;
                 }
 
                 .registered-icon {
@@ -168,6 +168,7 @@ html {
                             margin-top: -1px;
                             right: 0vw;
                             position: absolute;
+                            padding-bottom: 2px;
                         }
                         
                         input[type=checkbox]:checked:after {
@@ -279,7 +280,7 @@ html {
                     font-weight: bold;
                     position: absolute;
                     margin: auto;
-                    margin: -10vw 0 0 38vw;
+                    margin: -10vw 0 0 39vw;
                 }
 
                 .input-box {
@@ -365,10 +366,11 @@ html {
                          
                          input[type=checkbox]:checked:after {
                              content: "✔";
-                             font-size: 12px;
+                             font-size: 3vw;
                              font-weight:600;
                              background-color: #ffeda4;
                              padding-bottom: 2px;
+                             position: absolute;
                             //  padding-left: 5px;
                          }
 
@@ -751,6 +753,10 @@ html {
 
                         @media(max-width: 414px) {
                             line-height: 51.3vw;
+                        }
+
+                        @media(max-width: 360px) {
+                            line-height: 50.3vw;
                         }
 
                         @media(max-width: 320px) {
