@@ -189,6 +189,31 @@ html body .registered-bg .registered-box .agree-box .agree-text {
   position: absolute;
   right: 20vw;
 }
+@media (max-width: 414px) {
+  html body .registered-bg .registered-box .agree-box .agree-text {
+    right: 29vw;
+  }
+}
+@media (max-width: 411px) {
+  html body .registered-bg .registered-box .agree-box .agree-text {
+    right: 30vw;
+  }
+}
+@media (max-width: 375px) {
+  html body .registered-bg .registered-box .agree-box .agree-text {
+    right: 26vw;
+  }
+}
+@media (max-width: 360px) {
+  html body .registered-bg .registered-box .agree-box .agree-text {
+    right: 25vw;
+  }
+}
+@media (max-width: 320px) {
+  html body .registered-bg .registered-box .agree-box .agree-text {
+    right: 20vw;
+  }
+}
 html body .registered-bg .registered-box .agree-box .agree-text h5 {
   color: #00ff0c;
 }
@@ -318,7 +343,7 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   background: #fff;
   border: 1px solid #DDDDDD;
   right: 1vw;
-  top: -0.2vw;
+  top: -0.4vw;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:after {
   content: "✔";
@@ -546,6 +571,7 @@ html body main {
   width: 92%;
   height: 100vw;
   margin: auto;
+  overflow: scroll;
 }
 html body main .left {
   width: 18vw;
@@ -556,6 +582,7 @@ html body main .left {
   border-radius: 10px;
   border: 1px solid #fff1be;
   float: left;
+  position: relative;
 }
 html body main .left ul {
   width: 14vw;
@@ -633,7 +660,6 @@ html body main .right {
   width: 72vw;
   height: 102vw;
   float: right;
-  overflow: scroll;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
