@@ -195,7 +195,7 @@ html body .registered-bg .registered-box .agree-box label input[type=checkbox]:a
   margin-top: -1px;
   right: 0vw;
   position: absolute;
-  padding-bottom: 2px;
+  padding: 0px 2px;
 }
 html body .registered-bg .registered-box .agree-box label input[type=checkbox]:checked:after {
   content: "✔";
