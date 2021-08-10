@@ -333,7 +333,9 @@ html {
                     span {
                         color: #fff;
                         font-size: 3.5vw;
-                        display: contents;
+                        position: absolute;
+                        // top: 72vw;
+                        // left: 65vw;
                     }
 
                     .goto-forget {

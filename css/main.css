@@ -311,7 +311,7 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:aft
 html body .sign-bg .signin-box .agree-box span {
   color: #fff;
   font-size: 3.5vw;
-  display: contents;
+  position: absolute;
 }
 html body .sign-bg .signin-box .agree-box .goto-forget {
   font-size: 3.5vw;
