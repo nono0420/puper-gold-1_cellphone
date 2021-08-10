@@ -118,10 +118,10 @@ html body .registered-bg .registered-box .get {
   border: 1px solid #d19400;
   cursor: pointer;
   position: absolute;
-  margin-left: 36vw;
-  margin-top: -8.5vw;
   padding: 1vw;
   line-height: 5vw;
+  left: 63vw;
+  top: 93.5vw;
 }
 html body .registered-bg .registered-box .agree-box {
   width: 88vw;
@@ -131,7 +131,7 @@ html body .registered-bg .registered-box .agree-box {
   margin-top: 87vw;
 }
 html body .registered-bg .registered-box .agree-box label {
-  width: 8vw;
+  width: 20vw;
   height: 8vw;
   position: absolute;
   display: contents;
@@ -262,8 +262,7 @@ html body .sign-bg .signin-box .input-icon {
   height: 25vw;
   background: url(../img/input-icon.png) no-repeat;
   background-size: 100%;
-  position: absolute;
-  margin: -25vw 0 0 13vw;
+  margin: 1.5vw 0 0 12vw;
 }
 html body .sign-bg .signin-box input::-webkit-input-placeholder {
   color: #4c3367;
@@ -271,7 +270,6 @@ html body .sign-bg .signin-box input::-webkit-input-placeholder {
 html body .sign-bg .signin-box .agree-box {
   width: 45vw;
   height: 18px;
-  position: absolute;
   margin: 0 0 0 23vw;
 }
 html body .sign-bg .signin-box .agree-box label {
@@ -301,7 +299,6 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   border-radius: 3px;
   background: #fff;
   border: 1px solid #DDDDDD;
-  margin-top: -1px;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:after {
   content: "✔";
@@ -320,7 +317,8 @@ html body .sign-bg .signin-box .goto-forget {
   color: #fff;
   text-decoration: none;
   position: absolute;
-  margin: 0 0px 0px 60vw;
+  top: 72vw;
+  left: 64vw;
 }
 html body .sign-bg .signin-box .goto-forget:hover, html body .sign-bg .signin-box .goto-forget:active, html body .sign-bg .signin-box .goto-forget.active {
   color: #12ff00;
@@ -333,11 +331,13 @@ html body .sign-bg .signin-box button {
   border: none;
   background: url(../img/signin-button.png) no-repeat;
   background-size: 100%;
-  font-size: 7vw;
+  font-size: 6vw;
   color: #d7075f;
   font-weight: bold;
   line-height: 13vw;
-  margin: 11vw 0 0 27vw;
+  top: 80vw;
+  left: 32vw;
+  position: absolute;
   cursor: pointer;
 }
 html body .sign-bg .signin-box .goto-regidtertd-box {
@@ -346,15 +346,17 @@ html body .sign-bg .signin-box .goto-regidtertd-box {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  position: relative;
-  margin: 2vw 0 0 27vw;
+  position: absolute;
+  top: 93vw;
+  left: 35vw;
 }
 html body .sign-bg .signin-box .goto-regidtertd-box div {
   font-size: 14px;
   color: #fff;
+  font-size: 3.5vw;
 }
 html body .sign-bg .signin-box .goto-regidtertd-box .goto-registered {
-  font-size: 3vw;
+  font-size: 3.5vw;
   color: #12ff00;
   text-decoration: none;
   font-weight: bold;

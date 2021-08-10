@@ -120,10 +120,10 @@ html {
                     border: 1px solid #d19400;
                     cursor: pointer;
                     position: absolute;
-                    margin-left: 36vw;
-                    margin-top: -8.5vw;
                     padding: 1vw;
                     line-height: 5vw;
+                    left: 63vw;
+                     top: 93.5vw;
                 }
     
                .agree-box {
@@ -134,7 +134,7 @@ html {
                    margin-top: 87vw;
                   
                     label {
-                        width: 8vw;
+                        width: 20vw;
                         height: 8vw;
                         position: absolute;
                         display: contents;
@@ -276,8 +276,7 @@ html {
                     height: 25vw;
                     background: url(../img/input-icon.png) no-repeat;
                     background-size: 100%;
-                    position: absolute;
-                    margin: -25vw 0 0 13vw;
+                    margin: 1.5vw 0 0 12vw;
                 }
     
                 input::-webkit-input-placeholder {
@@ -286,8 +285,7 @@ html {
 
                 .agree-box {
                     width: 45vw;
-                    height: 18px;
-                    position: absolute;
+                    height: 18px; 
                     margin: 0 0 0 23vw;
      
                      label {
@@ -318,7 +316,6 @@ html {
                              border-radius: 3px;
                              background:#fff;
                              border:1px solid #DDDDDD;
-                             margin-top: -1px;
                          }
                          
                          input[type=checkbox]:checked:after {
@@ -342,7 +339,8 @@ html {
                     color: #fff;
                     text-decoration: none;
                     position: absolute;
-                    margin: 0 0px 0px 60vw;
+                    top: 72vw;
+                    left: 64vw;
     
                     &:hover,&:active,&.active {
                         color: #12ff00;
@@ -357,11 +355,13 @@ html {
                     border: none;
                     background: url(../img/signin-button.png) no-repeat;
                     background-size: 100%;
-                    font-size: 7vw;
+                    font-size: 6vw;
                     color: #d7075f;
                     font-weight: bold;
                     line-height: 13vw;
-                    margin: 11vw 0 0 27vw;
+                    top: 80vw;
+                    left: 32vw;
+                    position: absolute;
                     cursor: pointer;
                 }
 
@@ -369,16 +369,18 @@ html {
                     width: 182px;
                     height: 20px;
                     display: inline-flex;
-                    position: relative;
-                    margin: 2vw 0 0 27vw;
+                    position: absolute;
+                    top: 93vw;
+                    left: 35vw;
     
                     div {
                         font-size: 14px;
                         color: #fff;
+                        font-size: 3.5vw;
                     }
     
                     .goto-registered {
-                        font-size: 3vw;
+                        font-size: 3.5vw;
                         color: #12ff00;
                         text-decoration: none;
                         font-weight: bold;
