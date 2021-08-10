@@ -114,7 +114,7 @@ html body .registered-bg .registered-box .get {
 }
 @media (max-width: 411px) {
   html body .registered-bg .registered-box .get {
-    top: 91.7vw;
+    top: 91.2vw;
   }
 }
 @media (max-width: 375px) {
@@ -188,30 +188,36 @@ html body .registered-bg .registered-box .agree-box .agree-text {
   display: inline-flex;
   position: absolute;
   right: 20vw;
+  top: 117vw;
 }
 @media (max-width: 414px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 29vw;
+    top: 115vw;
   }
 }
 @media (max-width: 411px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 30vw;
+    top: 115vw;
   }
 }
 @media (max-width: 375px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 26vw;
+    top: 117vw;
   }
 }
 @media (max-width: 360px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 25vw;
+    top: 117vw;
   }
 }
 @media (max-width: 320px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 20vw;
+    top: 119vw;
   }
 }
 html body .registered-bg .registered-box .agree-box .agree-text h5 {
@@ -324,6 +330,11 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
   right: 70vw;
   top: 70.7vw;
 }
+@media (max-width: 360px) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
+    top: 73vw;
+  }
+}
 @media (max-width: 320px) {
   html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
     top: 78vw;
@@ -359,6 +370,11 @@ html body .sign-bg .signin-box .agree-box label span {
   top: 72vw;
   left: 31vw;
 }
+@media (max-width: 360px) {
+  html body .sign-bg .signin-box .agree-box label span {
+    top: 74vw;
+  }
+}
 @media (max-width: 320px) {
   html body .sign-bg .signin-box .agree-box label span {
     top: 79vw;
@@ -371,6 +387,11 @@ html body .sign-bg .signin-box .agree-box .goto-forget {
   position: absolute;
   top: 72vw;
   left: 65vw;
+}
+@media (max-width: 360px) {
+  html body .sign-bg .signin-box .agree-box .goto-forget {
+    top: 74vw;
+  }
 }
 @media (max-width: 320px) {
   html body .sign-bg .signin-box .agree-box .goto-forget {
@@ -693,7 +714,7 @@ html body main .right .right-box P {
 }
 @media (max-width: 414px) {
   html body main .right .right-box P {
-    line-height: 52.3vw;
+    line-height: 51.3vw;
   }
 }
 @media (max-width: 320px) {

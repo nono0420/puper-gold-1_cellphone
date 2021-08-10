@@ -114,7 +114,7 @@ html {
                     }
 
                     @media(max-width:411px){
-                        top: 91.7vw;
+                        top: 91.2vw;
                     }
 
                     @media(max-width:375px){
@@ -188,25 +188,31 @@ html {
                     display: inline-flex;
                     position: absolute;
                     right: 20vw;
+                    top: 117vw;
 
                     @media(max-width:414px){
                         right: 29vw;
+                        top: 115vw;
                     }
 
                     @media(max-width:411px){
                         right: 30vw;
+                        top: 115vw;
                     }
 
                     @media(max-width:375px){
                         right: 26vw;
+                        top: 117vw;
                     }
 
                     @media(max-width:360px){
                         right: 25vw;
+                        top: 117vw;
                     }
 
                     @media(max-width:320px){
                         right: 20vw;
+                        top: 119vw;
                     }
     
                     h5 {
@@ -331,7 +337,11 @@ html {
                              right: 70vw;
                              top: 70.7vw;
 
-                             @media(max-width:320px){
+                            @media(max-width:360px){
+                                top: 73vw;
+                            }
+
+                            @media(max-width:320px){
                                 top: 78vw;
                             }
                          }
@@ -369,6 +379,10 @@ html {
                             top: 72vw;
                             left: 31vw;
 
+                            @media(max-width:360px){
+                                top: 74vw;
+                            }
+
                             @media(max-width:320px){
                                 top: 79vw;
                             }
@@ -382,6 +396,10 @@ html {
                         position: absolute;
                         top: 72vw;
                         left: 65vw;
+
+                        @media(max-width:360px){
+                            top: 74vw;
+                        }
 
                         @media(max-width:320px){
                             top: 79vw;
@@ -732,7 +750,7 @@ html {
                         position: absolute;
 
                         @media(max-width: 414px) {
-                            line-height: 52.3vw;
+                            line-height: 51.3vw;
                         }
 
                         @media(max-width: 320px) {
