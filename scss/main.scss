@@ -70,7 +70,6 @@ html {
                     input {
                         width: 60vw;
                         height: 9vw;
-                        line-height: 35px;
                         padding-top: 3px;
                         border-radius: 20px;
                         padding-left: 4vw;
@@ -87,20 +86,20 @@ html {
                     }
                 }
     
-                input {
-                    width: 50vw;
-                    height: 8vw;
-                    border-radius: 20px;
-                    padding-left: 15px;
-                    color: #4c3367;
-                    background: #fff;
-                    border: none;
-                    outline: none;
-                    box-shadow: 1px 3px 4px #000000e0;
-                    font-size: 4vw;
-                    font-weight: bold;
-                    position: absolute;
-                }
+                // input {
+                //     width: 50vw;
+                //     height: 8vw;
+                //     border-radius: 20px;
+                //     padding-left: 15px;
+                //     color: #4c3367;
+                //     background: #fff;
+                //     border: none;
+                //     outline: none;
+                //     box-shadow: 1px 3px 4px #000000e0;
+                //     font-size: 4vw;
+                //     font-weight: bold;
+                //     position: absolute;
+                // }
     
                 input::-webkit-input-placeholder {
                     color: #4c3367;
@@ -203,7 +202,7 @@ html {
                     text-decoration: none;
                     display: inline-flex;
                     position: absolute;
-                    right: 13vw;
+                    right: 20vw;
     
                     h5 {
                         color: #00ff0c;
@@ -346,7 +345,7 @@ html {
                              background:#fff;
                              border:1px solid #DDDDDD;
                              right: 1vw;
-                             top: 0vw;
+                             top: -0.2vw;
                          }
                          
                          input[type=checkbox]:checked:after {
@@ -462,7 +461,7 @@ html {
                 }
     
                 .signin {
-                    width: 23vw;
+                    width: 24vw;
                     height: 6vw;
                     float: right;
                     position: relative;
