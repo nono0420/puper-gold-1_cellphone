@@ -10,6 +10,33 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+
+     <!-- 註冊窗 -->
+     <div class="registered-bg">
+        <div class="registered-box">
+            <div class="registered-cross"></div>
+            <p>註冊</p>
+            <div class="registered-icon"></div>
+            <div class="registered-input-box">
+                <input type="text"placeholder="請輸入您的姓名">
+                <input type="text"placeholder="請輸入帳號">
+                <input type="password"placeholder="請輸入密碼">
+                <input type="password"placeholder="請確認密碼">
+                <input type="text"placeholder="請輸入手機號碼">
+                <input type="text"placeholder="請輸入驗證碼">
+                <a href="#" class="get">取得驗證碼</a>
+                <input type="text"placeholder="電子信箱">
+            </div>
+            <div class="agree-box">
+                <label>
+                    <input name="checkbox" class="checkbox" type="checkbox"/>
+                </label>
+                <a href="#" class="agree-text">
+                    同意遵守<h5>隱私條款</h5>相關規定</a>
+            </div>
+            <button>註冊</button>
+        </div>
+    </div>
      <!-- 登入窗 -->
      <div class="sign-bg">
         <div class="signin-box">
@@ -32,33 +59,6 @@
                 <div>還沒有帳號? </div>
                 <a href="#" class="goto-registered"> 立即註冊</a>
             </div>
-        </div>
-    </div>
-    <!-- 註冊窗 -->
-    <div class="registered-bg">
-        <div class="registered-box">
-            <div class="registered-cross"></div>
-            <p>註冊</p>
-            <div class="registered-icon"></div>
-            <div class="registered-input-box">
-                <input type="text"placeholder="請輸入您的姓名">
-                <input type="text"placeholder="請輸入帳號">
-                <input type="password"placeholder="請輸入密碼">
-                <input type="password"placeholder="請確認密碼">
-                <input type="text"placeholder="請輸入手機號碼">
-                <input type="text"placeholder="請輸入驗證碼">
-                <a href="#" class="get">取得驗證碼</a>
-                <input type="text"placeholder="電子信箱">
-            </div>
-            </div>
-            <div class="agree-box">
-                <label>
-                    <input name="checkbox" class="checkbox" type="checkbox"/>
-                </label>
-                <a href="#" class="agree-text">
-                    同意遵守<h5>隱私條款</h5>相關規定</a>
-            </div>
-            <button>註冊</button>
         </div>
     </div>
     <header>
@@ -200,9 +200,21 @@
     </script>
 
     <script>
-      $(function(){
+        $(function(){
+            $('.signin').click(function(){
+                $('.registered-bg').addClass('display');
+            })
+            $('.registered-cross').click(function(){
+                $('.registered-bg').removeClass('display');
+            })
+        })
+
+        $(function(){
             $('.signin').click(function(){
                 $('.sign-bg').addClass('display');
+            })
+            $('.signin').click(function(){
+                $('.registered-bg').removeClass('display');
             })
             $('.signin-cross').click(function(){
                 $('.sign-bg').removeClass('display');
