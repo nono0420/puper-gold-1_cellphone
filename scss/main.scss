@@ -145,7 +145,7 @@ html {
     
                         input[type=checkbox] {
                             cursor: pointer;
-                            font-size: 14px;
+                            font-size: 3.5vw;
                             width: 15px;
                             height: 12px;
                             position: absolute;
@@ -176,14 +176,13 @@ html {
                         
                         input[type=checkbox]:after {
                             position: absolute;
-                            width: 12px;
-                            height: 14px;
+                            width: 3.5vw;
+                            height: 3.5vw;
                             top: 0;
                             content: " ";
                             color: #6c08d2;
                             display: inline-block;
                             visibility: visible;
-                            padding: 0px 2px;
                             border-radius: 3px;
                             background:#fff;
                             border:1px solid #DDDDDD;
