@@ -167,6 +167,7 @@ html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
   width: 15px;
   height: 12px;
   position: relative;
+  right: 19vw;
 }
 html body .registered-bg .registered-box .agree-box label input[type=checkbox]:after {
   position: absolute;
@@ -182,12 +183,16 @@ html body .registered-bg .registered-box .agree-box label input[type=checkbox]:a
   background: #fff;
   border: 1px solid #DDDDDD;
   margin-top: -1px;
+  right: 0vw;
+  position: absolute;
 }
 html body .registered-bg .registered-box .agree-box label input[type=checkbox]:checked:after {
   content: "✔";
   font-size: 12px;
   font-weight: 600;
   background-color: #ffeda4;
+  padding-bottom: 2px;
+  padding-left: 5px;
 }
 html body .registered-bg .registered-box .agree-box .agree-text {
   font-size: 3vw;
@@ -197,6 +202,8 @@ html body .registered-bg .registered-box .agree-box .agree-text {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  position: absolute;
+  right: 13vw;
 }
 html body .registered-bg .registered-box .agree-box .agree-text h5 {
   color: #00ff0c;
@@ -326,6 +333,8 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   border-radius: 3px;
   background: #fff;
   border: 1px solid #DDDDDD;
+  right: 1vw;
+  top: 0vw;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:after {
   content: "✔";
