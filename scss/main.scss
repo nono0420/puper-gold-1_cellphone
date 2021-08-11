@@ -29,6 +29,18 @@ html {
                 border-radius: 20px;
                 margin: auto;
                 margin-top: 50px;
+
+                @media(max-width:1024px){  
+                    height: 126vw;
+                }
+
+                @media(max-width:768px){
+                    height: 123vw;
+                }
+
+                @media(max-width:540px){
+                    height: 125vw;
+                }
     
                 .registered-cross {
                     width: 14vw;
@@ -117,30 +129,10 @@ html {
                         left: 35vw;
                         top: 50%;
                         transform: translateY(-50%);
-                        
-    
-                        // @media(max-width:414px){
-                        //     top: 92vw;
-                        //     line-height: 5.5vw;
-                        // }
-    
-                        // @media(max-width:411px){
-                        //     top: 92.2vw;
-                        //     line-height: 5.4vw;
-                        // }
-    
-                        // @media(max-width:375px){
-                        //     top: 93.5vw;
-                        // }
-    
-                        // @media(max-width:360px){
-                        //     top: 93.8vw;
-                        //     line-height: 6vw;
-                        // }
-    
-                        // @media(max-width:320px){
-                        //     top: 95.5vw;
-                        // }
+
+                        @media(max-width: 280px) {
+                            width: 22vw;
+                        }
                     }
                 }
     
@@ -165,6 +157,15 @@ html {
                             position: absolute;
                             right: 19vw;
 
+                            @media(max-width:1024px){
+                                right: 67vw;
+                            }
+
+                            @media(max-width:768px){
+                                right: 67vw;
+                                top: 110vw;
+                            }
+
                             @media(max-width:414px){
                                 right: 67vw;
                                 top: 117vw;
@@ -185,6 +186,11 @@ html {
 
                             @media(max-width:320px){
                                 top: 121vw;
+                            }
+
+                            @media(max-width:280px){
+                                top: 121vw;
+                                right: 75vw;
                             }
                         }
                         
@@ -227,6 +233,16 @@ html {
                     right: 20vw;
                     top: 117vw;
 
+                    @media(max-width:1024px){
+                        right: 27vw;
+                        top: 108vw;
+                    }
+
+                    @media(max-width:768px){
+                        right: 28vw;
+                        top: 110vw;
+                    }
+
                     @media(max-width:414px){
                         right: 31vw;
                         top: 116vw;
@@ -238,7 +254,7 @@ html {
                     }
 
                     @media(max-width:375px){
-                        right: 27vw;
+                        right: 25vw;
                         top: 117vw;
                     }
 
@@ -273,6 +289,39 @@ html {
                 line-height: 12vw;
                 cursor: pointer;
                 margin: 0vw 0 0 27vw;
+
+                @media(max-width: 768px) {
+                    top: 116vw;
+                    left: 33vw;
+                    margin: 0;
+                }
+
+                @media(max-width: 411px) {
+                    top: 123vw;                
+                }
+
+                @media(max-width: 414px) {
+                    top: 123vw;      
+                }
+
+                @media(max-width: 375px) {
+                    top: 125vw;
+                    left: 33vw;
+                    margin: 0;
+                }
+
+                @media(max-width: 320px) {
+                    top: 128vw;
+                    left: 33vw;
+                    margin: 0;
+                }
+                
+                @media(max-width: 280px) {
+                    top: 129vw;
+                    left: 33vw;
+                    margin: 0;
+                }
+
                }
             }
         }
@@ -374,13 +423,34 @@ html {
                              right: 64vw;
                              top: 70.7vw;
 
-                            @media(max-width:360px){
-                                top: 73vw;
-                            }
+                            
+                        @media(max-width:1024px){
+                            top: 53vw;
+                        }
 
-                            @media(max-width:320px){
-                                top: 78vw;
-                            }
+                        @media(max-width:540px){
+                            top: 62vw;
+                        }
+
+                        @media(max-width:414px){
+                            top: 72vw;
+                        }
+
+                        @media(max-width:375px){
+                            top: 72vw;
+                        }
+
+                        @media(max-width:360px){
+                            top: 73vw;
+                        }
+
+                        @media(max-width:320px){
+                            top: 78vw;
+                        }
+
+                        @media(max-width:280px){
+                            top: 80vw;
+                        }
                          }
                          
                          input[type=checkbox]:after {
@@ -408,7 +478,7 @@ html {
                              padding-bottom: 2px;
                              position: absolute;
 
-                             @supports (-webkit-touch-callout: none) {
+                            @supports (-webkit-touch-callout: none) {
                                padding-bottom: 2px;
                             }
                       
@@ -424,13 +494,34 @@ html {
                             top: 72vw;
                             left: 36vw;
 
-                            @media(max-width:360px){
-                                top: 74vw;
-                            }
+                           
+                        @media(max-width:1024px){
+                            top: 53vw;
+                        }
 
-                            @media(max-width:320px){
-                                top: 79vw;
-                            }
+                        @media(max-width:540px){
+                            top: 62vw;
+                        }
+
+                        @media(max-width:414px){
+                            top: 72vw;
+                        }
+
+                        @media(max-width:375px){
+                            top: 72vw;
+                        }
+
+                        @media(max-width:360px){
+                            top: 74vw;
+                        }
+
+                        @media(max-width:320px){
+                            top: 79vw;
+                        }
+
+                        @media(max-width:280px){
+                            top: 81vw;
+                        }
                         }
                      }  
 
@@ -442,6 +533,22 @@ html {
                         top: 72vw;
                         left: 65vw;
 
+                        @media(max-width:1024px){
+                            top: 53vw;
+                        }
+
+                        @media(max-width:540px){
+                            top: 62vw;
+                        }
+
+                        @media(max-width:414px){
+                            top: 72vw;
+                        }
+
+                        @media(max-width:375px){
+                            top: 72vw;
+                        }
+
                         @media(max-width:360px){
                             top: 74vw;
                         }
@@ -449,11 +556,16 @@ html {
                         @media(max-width:320px){
                             top: 79vw;
                         }
+
+                        @media(max-width:280px){
+                            top: 81vw;
+                        }
         
                         &:hover,&:active,&.active {
                             color: #12ff00;
                         }
                     }
+
                 }
     
                 button {
@@ -473,14 +585,34 @@ html {
                     position: absolute;
                     cursor: pointer;
 
+                    @media(max-width:1024px){
+                        top: 61vw;
+                    }
+
+                    @media(max-width:768px){
+                        top: 67vw;
+                    }
+
+                    @media(max-width:414px){
+                        top: 78vw;
+                    }
+
+                    @media(max-width:411px){
+                        top: 78vw;
+                    }
+
+                    @media(max-width:360px){
+                        top: 80vw;
+                    }
+
                     @media(max-width:320px){
                         top: 87vw;
                     }
                 }
 
                 .goto-regidtertd-box {
-                    width: 182px;
-                    height: 20px;
+                    width: 41vw;
+                    height: 6vw;
                     display: inline-flex;
                     position: absolute;
                     top: 93vw;
@@ -501,6 +633,39 @@ html {
                         color: #12ff00;
                         text-decoration: none;
                         font-weight: bold;
+                    }
+
+                    @media(max-width:1024px){
+                        top: 77vw;
+                    }
+
+                    @media(max-width:768px){
+                        top: 80vw;
+                    }
+
+                    @media(max-width:540px){
+                        top: 82vw;
+                    }
+
+                    @media(max-width:414px){
+                        top: 90vw;
+                    }
+
+                    @media(max-width:411px){
+                        top: 91vw;
+                    }
+
+                    @media(max-width:360px){
+                        top: 94vw;
+                    }
+
+                    @media(max-width:320px){
+                        top: 100vw;
+                    }
+
+                    @media(max-width:280px){
+                        top: 100vw;
+                        left: 32vw;
                     }
                 }
             }
@@ -827,7 +992,7 @@ html {
             background-size: 100%;
 
             ul {
-                width: 92%;
+                width: 93vw;
                 height: 13vw;
                 margin: auto;
                 padding-top: 4px;

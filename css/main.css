@@ -31,6 +31,21 @@ html body .registered-bg .registered-box {
   margin: auto;
   margin-top: 50px;
 }
+@media (max-width: 1024px) {
+  html body .registered-bg .registered-box {
+    height: 126vw;
+  }
+}
+@media (max-width: 768px) {
+  html body .registered-bg .registered-box {
+    height: 123vw;
+  }
+}
+@media (max-width: 540px) {
+  html body .registered-bg .registered-box {
+    height: 125vw;
+  }
+}
 html body .registered-bg .registered-box .registered-cross {
   width: 14vw;
   height: 15vw;
@@ -116,6 +131,11 @@ html body .registered-bg .registered-box .input-box .get {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+@media (max-width: 280px) {
+  html body .registered-bg .registered-box .input-box .get {
+    width: 22vw;
+  }
+}
 html body .registered-bg .registered-box .agree-box {
   width: 88vw;
   height: 10vw;
@@ -136,6 +156,17 @@ html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
   height: 12px;
   position: absolute;
   right: 19vw;
+}
+@media (max-width: 1024px) {
+  html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
+    right: 67vw;
+  }
+}
+@media (max-width: 768px) {
+  html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
+    right: 67vw;
+    top: 110vw;
+  }
 }
 @media (max-width: 414px) {
   html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
@@ -162,6 +193,12 @@ html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
 @media (max-width: 320px) {
   html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
     top: 121vw;
+  }
+}
+@media (max-width: 280px) {
+  html body .registered-bg .registered-box .agree-box label input[type=checkbox] {
+    top: 121vw;
+    right: 75vw;
   }
 }
 html body .registered-bg .registered-box .agree-box label input[type=checkbox]:after {
@@ -201,6 +238,18 @@ html body .registered-bg .registered-box .agree-box .agree-text {
   right: 20vw;
   top: 117vw;
 }
+@media (max-width: 1024px) {
+  html body .registered-bg .registered-box .agree-box .agree-text {
+    right: 27vw;
+    top: 108vw;
+  }
+}
+@media (max-width: 768px) {
+  html body .registered-bg .registered-box .agree-box .agree-text {
+    right: 28vw;
+    top: 110vw;
+  }
+}
 @media (max-width: 414px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 31vw;
@@ -215,7 +264,7 @@ html body .registered-bg .registered-box .agree-box .agree-text {
 }
 @media (max-width: 375px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
-    right: 27vw;
+    right: 25vw;
     top: 117vw;
   }
 }
@@ -249,6 +298,44 @@ html body .registered-bg .registered-box button {
   line-height: 12vw;
   cursor: pointer;
   margin: 0vw 0 0 27vw;
+}
+@media (max-width: 768px) {
+  html body .registered-bg .registered-box button {
+    top: 116vw;
+    left: 33vw;
+    margin: 0;
+  }
+}
+@media (max-width: 411px) {
+  html body .registered-bg .registered-box button {
+    top: 123vw;
+  }
+}
+@media (max-width: 414px) {
+  html body .registered-bg .registered-box button {
+    top: 123vw;
+  }
+}
+@media (max-width: 375px) {
+  html body .registered-bg .registered-box button {
+    top: 125vw;
+    left: 33vw;
+    margin: 0;
+  }
+}
+@media (max-width: 320px) {
+  html body .registered-bg .registered-box button {
+    top: 128vw;
+    left: 33vw;
+    margin: 0;
+  }
+}
+@media (max-width: 280px) {
+  html body .registered-bg .registered-box button {
+    top: 129vw;
+    left: 33vw;
+    margin: 0;
+  }
 }
 html body .sign-bg {
   width: 100%;
@@ -341,6 +428,26 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
   right: 64vw;
   top: 70.7vw;
 }
+@media (max-width: 1024px) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
+    top: 53vw;
+  }
+}
+@media (max-width: 540px) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
+    top: 62vw;
+  }
+}
+@media (max-width: 414px) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
+    top: 72vw;
+  }
+}
+@media (max-width: 375px) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
+    top: 72vw;
+  }
+}
 @media (max-width: 360px) {
   html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
     top: 73vw;
@@ -349,6 +456,11 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
 @media (max-width: 320px) {
   html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
     top: 78vw;
+  }
+}
+@media (max-width: 280px) {
+  html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
+    top: 80vw;
   }
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
@@ -392,6 +504,26 @@ html body .sign-bg .signin-box .agree-box label span {
   top: 72vw;
   left: 36vw;
 }
+@media (max-width: 1024px) {
+  html body .sign-bg .signin-box .agree-box label span {
+    top: 53vw;
+  }
+}
+@media (max-width: 540px) {
+  html body .sign-bg .signin-box .agree-box label span {
+    top: 62vw;
+  }
+}
+@media (max-width: 414px) {
+  html body .sign-bg .signin-box .agree-box label span {
+    top: 72vw;
+  }
+}
+@media (max-width: 375px) {
+  html body .sign-bg .signin-box .agree-box label span {
+    top: 72vw;
+  }
+}
 @media (max-width: 360px) {
   html body .sign-bg .signin-box .agree-box label span {
     top: 74vw;
@@ -400,6 +532,11 @@ html body .sign-bg .signin-box .agree-box label span {
 @media (max-width: 320px) {
   html body .sign-bg .signin-box .agree-box label span {
     top: 79vw;
+  }
+}
+@media (max-width: 280px) {
+  html body .sign-bg .signin-box .agree-box label span {
+    top: 81vw;
   }
 }
 html body .sign-bg .signin-box .agree-box .goto-forget {
@@ -410,6 +547,26 @@ html body .sign-bg .signin-box .agree-box .goto-forget {
   top: 72vw;
   left: 65vw;
 }
+@media (max-width: 1024px) {
+  html body .sign-bg .signin-box .agree-box .goto-forget {
+    top: 53vw;
+  }
+}
+@media (max-width: 540px) {
+  html body .sign-bg .signin-box .agree-box .goto-forget {
+    top: 62vw;
+  }
+}
+@media (max-width: 414px) {
+  html body .sign-bg .signin-box .agree-box .goto-forget {
+    top: 72vw;
+  }
+}
+@media (max-width: 375px) {
+  html body .sign-bg .signin-box .agree-box .goto-forget {
+    top: 72vw;
+  }
+}
 @media (max-width: 360px) {
   html body .sign-bg .signin-box .agree-box .goto-forget {
     top: 74vw;
@@ -418,6 +575,11 @@ html body .sign-bg .signin-box .agree-box .goto-forget {
 @media (max-width: 320px) {
   html body .sign-bg .signin-box .agree-box .goto-forget {
     top: 79vw;
+  }
+}
+@media (max-width: 280px) {
+  html body .sign-bg .signin-box .agree-box .goto-forget {
+    top: 81vw;
   }
 }
 html body .sign-bg .signin-box .agree-box .goto-forget:hover, html body .sign-bg .signin-box .agree-box .goto-forget:active, html body .sign-bg .signin-box .agree-box .goto-forget.active {
@@ -440,14 +602,39 @@ html body .sign-bg .signin-box button {
   position: absolute;
   cursor: pointer;
 }
+@media (max-width: 1024px) {
+  html body .sign-bg .signin-box button {
+    top: 61vw;
+  }
+}
+@media (max-width: 768px) {
+  html body .sign-bg .signin-box button {
+    top: 67vw;
+  }
+}
+@media (max-width: 414px) {
+  html body .sign-bg .signin-box button {
+    top: 78vw;
+  }
+}
+@media (max-width: 411px) {
+  html body .sign-bg .signin-box button {
+    top: 78vw;
+  }
+}
+@media (max-width: 360px) {
+  html body .sign-bg .signin-box button {
+    top: 80vw;
+  }
+}
 @media (max-width: 320px) {
   html body .sign-bg .signin-box button {
     top: 87vw;
   }
 }
 html body .sign-bg .signin-box .goto-regidtertd-box {
-  width: 182px;
-  height: 20px;
+  width: 41vw;
+  height: 6vw;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -470,6 +657,47 @@ html body .sign-bg .signin-box .goto-regidtertd-box .goto-registered {
   color: #12ff00;
   text-decoration: none;
   font-weight: bold;
+}
+@media (max-width: 1024px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 77vw;
+  }
+}
+@media (max-width: 768px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 80vw;
+  }
+}
+@media (max-width: 540px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 82vw;
+  }
+}
+@media (max-width: 414px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 90vw;
+  }
+}
+@media (max-width: 411px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 91vw;
+  }
+}
+@media (max-width: 360px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 94vw;
+  }
+}
+@media (max-width: 320px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 100vw;
+  }
+}
+@media (max-width: 280px) {
+  html body .sign-bg .signin-box .goto-regidtertd-box {
+    top: 100vw;
+    left: 32vw;
+  }
 }
 html body header {
   width: 100%;
@@ -767,7 +995,7 @@ html body .fixed-menu {
   background-size: 100%;
 }
 html body .fixed-menu ul {
-  width: 92%;
+  width: 93vw;
   height: 13vw;
   margin: auto;
   padding-top: 4px;
