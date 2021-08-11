@@ -110,13 +110,13 @@ html body .registered-bg .registered-box .get {
 @media (max-width: 414px) {
   html body .registered-bg .registered-box .get {
     top: 92vw;
-    line-height: 5.3vw;
+    line-height: 5.5vw;
   }
 }
 @media (max-width: 411px) {
   html body .registered-bg .registered-box .get {
     top: 92.2vw;
-    line-height: 5.8vw;
+    line-height: 5.4vw;
   }
 }
 @media (max-width: 375px) {
