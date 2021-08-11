@@ -726,7 +726,7 @@ html body header .top .logo {
   position: absolute;
 }
 html body header .top .signin {
-  width: 24vw;
+  width: 27vw;
   height: 6vw;
   float: right;
   position: relative;
@@ -742,7 +742,7 @@ html body header .top .signin .signin-icon {
   float: left;
 }
 html body header .top .signin .signin-text {
-  width: 19vw;
+  width: 22vw;
   height: 6vw;
   line-height: 6vw;
   color: #d7075f;
