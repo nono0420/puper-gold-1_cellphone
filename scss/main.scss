@@ -89,47 +89,58 @@ html {
                 input::-webkit-input-placeholder {
                     color: #4c3367;
                 }
+                
+                .input-box {
+                    margin-top: 3.1vw;
+                    position: relative;
+
+                    input {
+                       margin: 0;
+                    }
+
+                    .get {
+                        width: 21vw;
+                        height: 5vw;
+                        background: linear-gradient(to bottom, #ffbb45 0%, #fffaa8 100%);
+                        border-radius: 15px;
+                        text-decoration: none;
+                        line-height: 28px;
+                        font-weight: bold;
+                        font-size: 3vw;
+                        text-align: center;
+                        color: #454545;
+                        border: 1px solid #d19400;
+                        cursor: pointer;
+                        position: absolute;
+                        padding: 1vw;
+                        line-height: 5vw;
+                        left: 35vw;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        
     
-                .get {
-                    width: 21vw;
-                    height: 5vw;
-                    background: linear-gradient(to bottom, #ffbb45 0%, #fffaa8 100%);
-                    border-radius: 15px;
-                    text-decoration: none;
-                    line-height: 28px;
-                    font-weight: bold;
-                    font-size: 3vw;
-                    text-align: center;
-                    color: #454545;
-                    border: 1px solid #d19400;
-                    cursor: pointer;
-                    position: absolute;
-                    padding: 1vw;
-                    line-height: 5vw;
-                    left: 63vw;
-                    top: 93vw;
-
-                    @media(max-width:414px){
-                        top: 92vw;
-                        line-height: 5.5vw;
-                    }
-
-                    @media(max-width:411px){
-                        top: 92.2vw;
-                        line-height: 5.4vw;
-                    }
-
-                    @media(max-width:375px){
-                        top: 93.5vw;
-                    }
-
-                    @media(max-width:360px){
-                        top: 93.8vw;
-                        line-height: 6vw;
-                    }
-
-                    @media(max-width:320px){
-                        top: 95.5vw;
+                        // @media(max-width:414px){
+                        //     top: 92vw;
+                        //     line-height: 5.5vw;
+                        // }
+    
+                        // @media(max-width:411px){
+                        //     top: 92.2vw;
+                        //     line-height: 5.4vw;
+                        // }
+    
+                        // @media(max-width:375px){
+                        //     top: 93.5vw;
+                        // }
+    
+                        // @media(max-width:360px){
+                        //     top: 93.8vw;
+                        //     line-height: 6vw;
+                        // }
+    
+                        // @media(max-width:320px){
+                        //     top: 95.5vw;
+                        // }
                     }
                 }
     

@@ -87,7 +87,14 @@ html body .registered-bg .registered-box .registered-input-box input {
 html body .registered-bg .registered-box input::-webkit-input-placeholder {
   color: #4c3367;
 }
-html body .registered-bg .registered-box .get {
+html body .registered-bg .registered-box .input-box {
+  margin-top: 3.1vw;
+  position: relative;
+}
+html body .registered-bg .registered-box .input-box input {
+  margin: 0;
+}
+html body .registered-bg .registered-box .input-box .get {
   width: 21vw;
   height: 5vw;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffbb45), to(#fffaa8));
@@ -104,36 +111,10 @@ html body .registered-bg .registered-box .get {
   position: absolute;
   padding: 1vw;
   line-height: 5vw;
-  left: 63vw;
-  top: 93vw;
-}
-@media (max-width: 414px) {
-  html body .registered-bg .registered-box .get {
-    top: 92vw;
-    line-height: 5.5vw;
-  }
-}
-@media (max-width: 411px) {
-  html body .registered-bg .registered-box .get {
-    top: 92.2vw;
-    line-height: 5.4vw;
-  }
-}
-@media (max-width: 375px) {
-  html body .registered-bg .registered-box .get {
-    top: 93.5vw;
-  }
-}
-@media (max-width: 360px) {
-  html body .registered-bg .registered-box .get {
-    top: 93.8vw;
-    line-height: 6vw;
-  }
-}
-@media (max-width: 320px) {
-  html body .registered-bg .registered-box .get {
-    top: 95.5vw;
-  }
+  left: 35vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 html body .registered-bg .registered-box .agree-box {
   width: 88vw;
