@@ -51,7 +51,7 @@ html body .registered-bg .registered-box p {
   margin: -9vw 0 0 39vw;
 }
 html body .registered-bg .registered-box .registered-icon {
-  width: 9.5vw;
+  width: 10.6vw;
   height: 85vw;
   background: url(../img/registered-icon.png) no-repeat;
   background-size: 100%;
@@ -262,7 +262,7 @@ html body .registered-bg .registered-box button {
   background: url(../img/signin-button.png) no-repeat;
   background-size: 100%;
   position: absolute;
-  font-size: 5.4vw;
+  font-size: 5vw;
   color: #330077;
   font-weight: bold;
   line-height: 12vw;
@@ -450,10 +450,10 @@ html body .sign-bg .signin-box button {
   border: none;
   background: url(../img/signin-button.png) no-repeat;
   background-size: 100%;
-  font-size: 5.4vw;
+  font-size: 5vw;
   color: #330077;
   font-weight: bold;
-  line-height: 11.5vw;
+  line-height: 12vw;
   top: 80vw;
   left: 32vw;
   position: absolute;
