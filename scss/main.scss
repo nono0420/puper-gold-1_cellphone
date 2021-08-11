@@ -482,11 +482,11 @@ html {
                              position: absolute;
 
                             @supports (-webkit-touch-callout: none) {
-                               padding-bottom: 2px;
+                               padding-bottom: 5px;
                             }
                       
                             @supports not (-webkit-touch-callout: none) {
-                                padding-bottom: 2px;
+                                padding-bottom: 5px;
                             }
                          }
 
