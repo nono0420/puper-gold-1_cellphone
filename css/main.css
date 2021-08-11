@@ -252,7 +252,7 @@ html body .registered-bg .registered-box .agree-box .agree-text {
 }
 @media (max-width: 414px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
-    right: 31vw;
+    right: 30vw;
     top: 116vw;
   }
 }
@@ -265,7 +265,7 @@ html body .registered-bg .registered-box .agree-box .agree-text {
 @media (max-width: 375px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 25vw;
-    top: 117vw;
+    top: 116.5vw;
   }
 }
 @media (max-width: 360px) {
