@@ -429,15 +429,19 @@ html {
                         }
 
                         @media(max-width:540px){
-                            top: 62vw;
+                            top: 61.5vw;
                         }
 
                         @media(max-width:414px){
-                            top: 72vw;
+                            top: 71.5vw;
+                        }
+
+                        @media(max-width:411px){
+                            top: 71.3vw;
                         }
 
                         @media(max-width:375px){
-                            top: 72vw;
+                            top: 71.5vw;
                         }
 
                         @media(max-width:360px){
@@ -832,7 +836,22 @@ html {
             height: 100vw;
             margin: auto;
             overflow: scroll;
-            // background: salmon;
+
+            @media(max-width:1024px){
+                height: 65vw;
+            }
+
+            @media(max-width:768px){
+                height: 60vw;
+            }
+
+            @media(max-width:540px){
+                height: 60vw;
+            }
+
+            @media(max-width:414px){
+                height: 100vw;
+            }
 
             .left {
                 width: 18vw;
@@ -935,7 +954,6 @@ html {
                 width: 72vw;
                 height: 102vw;
                 float: right;
-                // overflow: scroll;
                 display: flex;
                 flex-wrap: wrap;
                 position: relative;
