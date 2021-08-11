@@ -58,7 +58,7 @@ html {
                     background-size: 100%;
                     position: absolute;
                     margin-left: 10vw;
-                    margin-top: 2vw;
+                    margin-top: 2.5vw;
                 }
 
                 .registered-input-box {
@@ -82,7 +82,7 @@ html {
                         font-weight: bold;
                         position: relative;
                         box-sizing: border-box;
-                        margin-top: 3vw;
+                        margin-top: 3.1vw;
                     }
                 }
     
@@ -110,26 +110,26 @@ html {
                     top: 93vw;
 
                     @media(max-width:414px){
-                        top: 91vw;
-                        line-height: 5.8vw;
+                        top: 92vw;
+                        line-height: 5.3vw;
                     }
 
                     @media(max-width:411px){
-                        top: 91.2vw;
+                        top: 92.2vw;
                         line-height: 5.8vw;
                     }
 
                     @media(max-width:375px){
-                        top: 92.7vw;
+                        top: 93.5vw;
                     }
 
                     @media(max-width:360px){
-                        top: 93.2vw;
+                        top: 93.8vw;
                         line-height: 6vw;
                     }
 
                     @media(max-width:320px){
-                        top: 95.2vw;
+                        top: 95.5vw;
                     }
                 }
     
@@ -217,22 +217,22 @@ html {
                     top: 117vw;
 
                     @media(max-width:414px){
-                        right: 30vw;
+                        right: 31vw;
                         top: 116vw;
                     }
 
                     @media(max-width:411px){
-                        right: 29vw;
+                        right: 30vw;
                         top: 115.7vw;
                     }
 
                     @media(max-width:375px){
-                        right: 26vw;
+                        right: 27vw;
                         top: 117vw;
                     }
 
                     @media(max-width:360px){
-                        right: 25vw;
+                        right: 26vw;
                         top: 117.3vw;
                     }
 
@@ -256,10 +256,10 @@ html {
                 background: url(../img/signin-button.png) no-repeat;
                 background-size: 100%;
                 position: absolute;
-                font-size: 6vw;
+                font-size: 5.4vw;
                 color: #330077;
                 font-weight: bold;
-                line-height: 11.8vw;
+                line-height: 12vw;
                 cursor: pointer;
                 margin: 0vw 0 0 27vw;
                }
@@ -453,7 +453,7 @@ html {
                     border: none;
                     background: url(../img/signin-button.png) no-repeat;
                     background-size: 100%;
-                    font-size: 6vw;
+                    font-size: 5.4vw;
                     color: #330077;
                     font-weight: bold;
                     line-height: 11.5vw;
