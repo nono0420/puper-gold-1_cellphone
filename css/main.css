@@ -77,7 +77,7 @@ html body .registered-bg .registered-box .registered-input-box input {
   outline: none;
   -webkit-box-shadow: 1px 3px 4px #000000e0;
           box-shadow: 1px 3px 4px #000000e0;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -110,11 +110,13 @@ html body .registered-bg .registered-box .get {
 @media (max-width: 414px) {
   html body .registered-bg .registered-box .get {
     top: 91vw;
+    line-height: 5.8vw;
   }
 }
 @media (max-width: 411px) {
   html body .registered-bg .registered-box .get {
     top: 91.2vw;
+    line-height: 5.8vw;
   }
 }
 @media (max-width: 375px) {
@@ -125,6 +127,7 @@ html body .registered-bg .registered-box .get {
 @media (max-width: 360px) {
   html body .registered-bg .registered-box .get {
     top: 93.2vw;
+    line-height: 6vw;
   }
 }
 @media (max-width: 320px) {
@@ -219,14 +222,14 @@ html body .registered-bg .registered-box .agree-box .agree-text {
 }
 @media (max-width: 414px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
-    right: 29vw;
-    top: 115vw;
+    right: 30vw;
+    top: 116vw;
   }
 }
 @media (max-width: 411px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 29vw;
-    top: 115vw;
+    top: 115.7vw;
   }
 }
 @media (max-width: 375px) {
@@ -238,7 +241,7 @@ html body .registered-bg .registered-box .agree-box .agree-text {
 @media (max-width: 360px) {
   html body .registered-bg .registered-box .agree-box .agree-text {
     right: 25vw;
-    top: 117vw;
+    top: 117.3vw;
   }
 }
 @media (max-width: 320px) {
@@ -260,9 +263,9 @@ html body .registered-bg .registered-box button {
   background-size: 100%;
   position: absolute;
   font-size: 6vw;
-  color: #d7075f;
+  color: #330077;
   font-weight: bold;
-  line-height: 13vw;
+  line-height: 11.8vw;
   cursor: pointer;
   margin: 0vw 0 0 27vw;
 }
@@ -324,7 +327,7 @@ html body .sign-bg .signin-box .input-box input {
   outline: none;
   -webkit-box-shadow: 1px 3px 4px #000000e0;
           box-shadow: 1px 3px 4px #000000e0;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   margin-top: 3vw;
 }
@@ -354,7 +357,7 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox] {
   width: 5vw;
   height: 3.5vw;
   position: absolute;
-  right: 70vw;
+  right: 64vw;
   top: 70.7vw;
 }
 @media (max-width: 360px) {
@@ -380,7 +383,7 @@ html body .sign-bg .signin-box .agree-box label input[type=checkbox]:after {
   border-radius: 3px;
   background: #fff;
   border: 1px solid #DDDDDD;
-  right: 1vw;
+  right: 0vw;
   top: -0.4vw;
 }
 html body .sign-bg .signin-box .agree-box label input[type=checkbox]:checked:after {
@@ -406,7 +409,7 @@ html body .sign-bg .signin-box .agree-box label span {
   font-size: 3.5vw;
   position: absolute;
   top: 72vw;
-  left: 31vw;
+  left: 36vw;
 }
 @media (max-width: 360px) {
   html body .sign-bg .signin-box .agree-box label span {
@@ -448,9 +451,9 @@ html body .sign-bg .signin-box button {
   background: url(../img/signin-button.png) no-repeat;
   background-size: 100%;
   font-size: 6vw;
-  color: #d7075f;
+  color: #330077;
   font-weight: bold;
-  line-height: 11vw;
+  line-height: 11.5vw;
   top: 80vw;
   left: 32vw;
   position: absolute;
@@ -659,8 +662,8 @@ html body main .left ul li {
   font-weight: bold;
 }
 html body main .left ul li:hover, html body main .left ul li:active, html body main .left ul li.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#7a18e4), to(#d858e8));
-  background: linear-gradient(to top, #7a18e4 0%, #d858e8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#7a18e4), to(#d858e8));
+  background: linear-gradient(to bottom, #7a18e4 0%, #d858e8 100%);
   border-radius: 3px;
 }
 @media (max-width: 320px) {

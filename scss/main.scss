@@ -78,7 +78,7 @@ html {
                         border: none;
                         outline: none;
                         box-shadow: 1px 3px 4px #000000e0;
-                        font-size: 15px;
+                        font-size: 14px;
                         font-weight: bold;
                         position: relative;
                         box-sizing: border-box;
@@ -111,10 +111,12 @@ html {
 
                     @media(max-width:414px){
                         top: 91vw;
+                        line-height: 5.8vw;
                     }
 
                     @media(max-width:411px){
                         top: 91.2vw;
+                        line-height: 5.8vw;
                     }
 
                     @media(max-width:375px){
@@ -123,6 +125,7 @@ html {
 
                     @media(max-width:360px){
                         top: 93.2vw;
+                        line-height: 6vw;
                     }
 
                     @media(max-width:320px){
@@ -214,13 +217,13 @@ html {
                     top: 117vw;
 
                     @media(max-width:414px){
-                        right: 29vw;
-                        top: 115vw;
+                        right: 30vw;
+                        top: 116vw;
                     }
 
                     @media(max-width:411px){
                         right: 29vw;
-                        top: 115vw;
+                        top: 115.7vw;
                     }
 
                     @media(max-width:375px){
@@ -230,7 +233,7 @@ html {
 
                     @media(max-width:360px){
                         right: 25vw;
-                        top: 117vw;
+                        top: 117.3vw;
                     }
 
                     @media(max-width:320px){
@@ -254,9 +257,9 @@ html {
                 background-size: 100%;
                 position: absolute;
                 font-size: 6vw;
-                color: #d7075f;
+                color: #330077;
                 font-weight: bold;
-                line-height: 13vw;
+                line-height: 11.8vw;
                 cursor: pointer;
                 margin: 0vw 0 0 27vw;
                }
@@ -322,7 +325,7 @@ html {
                         border: none;
                         outline: none;
                         box-shadow: 1px 3px 4px #000000e0;
-                        font-size: 15px;
+                        font-size: 14px;
                         font-weight: bold;
                         margin-top: 3vw;
                     }
@@ -357,7 +360,7 @@ html {
                              width: 5vw;
                              height: 3.5vw;
                              position: absolute;
-                             right: 70vw;
+                             right: 64vw;
                              top: 70.7vw;
 
                             @media(max-width:360px){
@@ -382,7 +385,7 @@ html {
                              border-radius: 3px;
                              background:#fff;
                              border:1px solid #DDDDDD;
-                             right: 1vw;
+                             right: 0vw;
                              top: -0.4vw;
                          }
                          
@@ -408,7 +411,7 @@ html {
                             font-size: 3.5vw;
                             position: absolute;
                             top: 72vw;
-                            left: 31vw;
+                            left: 36vw;
 
                             @media(max-width:360px){
                                 top: 74vw;
@@ -451,9 +454,9 @@ html {
                     background: url(../img/signin-button.png) no-repeat;
                     background-size: 100%;
                     font-size: 6vw;
-                    color: #d7075f;
+                    color: #330077;
                     font-weight: bold;
-                    line-height: 11vw;
+                    line-height: 11.5vw;
                     top: 80vw;
                     left: 32vw;
                     position: absolute;
@@ -681,7 +684,7 @@ html {
                         font-weight: bold;
 
                         &:hover,&:active,&.active {
-                            background: linear-gradient(to top, #7a18e4 0%,#d858e8 100%);
+                            background: linear-gradient(to bottom, #7a18e4 0%,#d858e8 100%);
                             border-radius: 3px;
                         }
 
